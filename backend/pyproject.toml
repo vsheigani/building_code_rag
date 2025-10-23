@@ -1,0 +1,15 @@
+[project]
+name = "backend"
+version = "0.1.0"
+authors = [{ name = "Vahid Sheigani", email = "v.sheigani@gmail.com" }]
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi[standard]>=0.119.1",
+    "pydantic>=2.12.3",
+    "pydantic-settings>=2.11.0",
+    "sentry-sdk>=2.42.1",
+    "starlette>=0.48.0",
+    "uvicorn>=0.38.0",
+]
